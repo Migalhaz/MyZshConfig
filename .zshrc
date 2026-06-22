@@ -25,7 +25,7 @@ if [ -f "$ZSH_CONFIG/startup.zsh" ]; then
   source "$ZSH_CONFIG/startup.zsh"
 fi
 
-if [ -f "$HOME/.zshrc.local"]; then
+if [ -f "$HOME/.zshrc.local" ]; then
     source "$HOME/.zshrc.local"
 fi
 
